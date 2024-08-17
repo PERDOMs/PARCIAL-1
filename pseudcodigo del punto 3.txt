@@ -1,0 +1,35 @@
+Pseudocódigo para el Programa de Compra y Venta de Equipos Electrónicos
+    start
+    // Programa de compra y venta de equipos electrónicos
+    // Declaración de variables
+    Declare Integer numberOfItems = 50
+    Declare Float purchasePrice = 150.0
+    Declare Float sellingPrice = 175.0
+    Declare Float commissionRate = 0.03
+    Declare Float totalPurchaseAmount, purchaseCommission
+    Declare Float totalSalesAmount, salesCommission
+    Declare Float netProfitOrLoss
+
+    // Cálculos para la compra
+    Set totalPurchaseAmount = numberOfItems * purchasePrice
+    Set purchaseCommission = totalPurchaseAmount * commissionRate
+    
+    // Cálculos para la venta
+    Set totalSalesAmount = numberOfItems * sellingPrice
+    Set salesCommission = totalSalesAmount * commissionRate
+    
+    // Cálculo de la ganancia o pérdida neta
+    Set netProfitOrLoss = (totalSalesAmount - salesCommission) - (totalPurchaseAmount + purchaseCommission)
+    
+    // Mostrar resultados
+    Display "Monto total pagado por la compra: $" totalPurchaseAmount
+    Display "Comisión pagada en la compra: $" purchaseCommission
+    Display "Monto total recibido por la venta: $" totalSalesAmount
+    Display "Comisión pagada en la venta: $" salesCommission
+    If netProfitOrLoss > 0 Then
+    Display "Ana obtuvo una ganancia de: $" netProfitOrLoss
+    ElseIf netProfitOrLoss < 0 Then
+    Display "Ana tuvo una pérdida de: $" (-netProfitOrLoss)
+    Else
+    Display "Ana no obtuvo ni ganancia ni pérdida."
+    End
