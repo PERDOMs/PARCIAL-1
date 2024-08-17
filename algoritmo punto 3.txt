@@ -1,0 +1,12 @@
+
+Algoritmo para el Programa de Compra y Venta de Equipos Electrónicos
+
+    1. Iniciar
+    2. Definir variables para el número de equipos, precio de compra, precio de venta, comisión y cálculos de los montos.
+    3. Calcular el monto total pagado por la compra de los equipos.
+    4. Calcular la comisión pagada en la compra (3% del monto total de la compra).
+    5. Calcular el monto total recibido por la venta de los equipos.
+    6. Calcular la comisión pagada en la venta (3% del monto total de la venta).
+    7. Calcular la ganancia o pérdida restando el total pagado al total recibido.
+    8. Mostrar el monto total pagado, la comisión pagada en la compra, el monto total recibido, la comisión pagada en la venta y la ganancia o pérdida.
+    9. Finalizar
