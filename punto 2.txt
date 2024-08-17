@@ -1,0 +1,32 @@
+
+algoritmo para determinar el consumo de energia en kw/h al mes 
+1 iniciar 
+2 Declarar las variables para la potencia, horas de uso diario, días del mes y consumo de energía.
+3 Asignar valores a la potencia y horas de uso diario.
+4 Calcular el consumo de energía en kilovatios-hora (kWh) al mes.
+5 Mostrar el resultado del consumo de energía.
+6 finalizar.
+
+pseudocodigo
+program calcular_consumo_energia 
+Start
+// Programa para calcular el consumo de energía de un electrodoméstico
+// Declaración de variables
+Declare int dias_del_mes
+Declare Float vatios_a_kilovatios
+Declare Float potencia
+Declare Float horas_uso_diario
+Declare Float consumo_energia_mensual
+
+// Asignación de valores
+Set dias_del_mes = 30
+Set vatios_a_kilovatios = 1000.0
+Set potencia = 1500.0
+Set horas_uso_diario = 3.0
+
+// Cálculos
+Set monthly_energy_consumption = (potencia * horas_uso_diario * dias_del_mes) / vatios_a_kilovatios
+
+// Mostrar resultados
+Display "El consumo de energía mensual es ", monthly_energy_consumption, " kWh"
+End
