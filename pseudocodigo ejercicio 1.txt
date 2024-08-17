@@ -1,0 +1,25 @@
+pseudocodigo ejercicio 1
+
+start
+//programa para mostrar la información de un libro 
+//declaración de variables
+declare string booktitle
+declare string autor
+declare float Price
+declare real year
+
+//obtención de valores 
+display "ingrese el titulo del libro"
+input booktitle
+
+display "ingrese el autor del libro"
+input autor
+
+display "ingrese el precio del libro"
+input Price
+
+display "ingrese año de publicación del libro"
+input yearofpublication
+
+end
+
