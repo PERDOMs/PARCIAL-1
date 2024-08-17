@@ -1,0 +1,7 @@
+algoritmo para mostrar la informacion e un libro.
+
+1. iniciar
+2. declarar variables como el titulo, autor, precio y año 
+3.solicitar al usuario ingresar el titulo, autor, precio y año
+4. mostrar información ingresada 
+5. finalizar 
